@@ -34,7 +34,9 @@ secure, and production-grade cloud infrastructure.
 
 ## Module Features
 
-This module creates static IP address.
+This module implements the following terraform resources
+
+- `google_compute_address`
 
 ## Getting Started
 
