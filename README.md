@@ -76,7 +76,6 @@ See [variables.tf] and [examples/] for details and use-cases.
 
 #### Main Resource Configuration
 
-
 - **`name`**: **_(Required `string`)_**
 
   Name of the resource. The name must be `1-63` characters long, and comply with RFC1035.
