@@ -34,7 +34,7 @@ secure, and production-grade cloud infrastructure.
 
 ## Module Features
 
-This module implements the following terraform resources
+This module implements the following terraform resources:
 
 - `google_compute_address`
 
@@ -61,6 +61,7 @@ See [variables.tf] and [examples/] for details and use-cases.
 - **`module_enabled`**: _(Optional `bool`)_
 
   Specifies whether resources in the module will be created.
+  
   Default is `true`.
 
 - **`module_depends_on`**: _(Optional `list(dependencies)`)_
@@ -83,6 +84,7 @@ See [variables.tf] and [examples/] for details and use-cases.
 - **`number_of_addresses`**: _(Optional `number`)_
 
   How many resources you want to create.
+  
   Default is `1`.
 
 - **`address`**: _(Optional `string`)_
@@ -92,6 +94,7 @@ See [variables.tf] and [examples/] for details and use-cases.
 - **`address_type`**: _(Optional `string`)_
 
   The type of address to reserve. Possible values are `INTERNAL` and `EXTERNAL`.
+  
   Default is `EXTERNAL`.
 
 - **`description`**: _(Optional `string`)_
