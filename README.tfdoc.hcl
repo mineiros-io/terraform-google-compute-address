@@ -359,7 +359,7 @@ references {
   ref "variables.tf" {
     value = "https://github.com/mineiros-io/terraform-google-compute-address/blob/main/variables.tf"
   }
-  ref "examples" {
+  ref "examples/" {
     value = "https://github.com/mineiros-io/terraform-google-compute-address/blob/main/examples"
   }
   ref "issues" {

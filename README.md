@@ -228,7 +228,7 @@ Copyright &copy; 2020-2022 [Mineiros GmbH][homepage]
 [gcp]: https://cloud.google.com/
 [semantic versioning (semver)]: https://semver.org/
 [variables.tf]: https://github.com/mineiros-io/terraform-google-compute-address/blob/main/variables.tf
-[examples]: https://github.com/mineiros-io/terraform-google-compute-address/blob/main/examples
+[examples/]: https://github.com/mineiros-io/terraform-google-compute-address/blob/main/examples
 [issues]: https://github.com/mineiros-io/terraform-google-compute-address/issues
 [license]: https://github.com/mineiros-io/terraform-google-compute-address/blob/main/LICENSE
 [makefile]: https://github.com/mineiros-io/terraform-google-compute-address/blob/main/Makefile
