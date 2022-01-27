@@ -138,13 +138,13 @@ See [variables.tf] and [examples/] for details and use-cases.
 
 The following attributes are exported in the outputs of the module:
 
-- **`module_enabled`**
+- [**`module_enabled`**](#output-module_enabled): *(`bool`)*<a name="output-module_enabled"></a>
 
   Whether this module is enabled.
 
-- **`address`**
+- [**`address`**](#output-address): *(`object(address)`)*<a name="output-address"></a>
 
-  All compute address attributes.
+  All `google_compute_address` attributes.
 
 ## External Documentation
 

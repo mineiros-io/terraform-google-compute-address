@@ -201,15 +201,21 @@ section {
     title   = "Module Outputs"
     content = <<-END
       The following attributes are exported in the outputs of the module:
-
-      - **`module_enabled`**
-
-        Whether this module is enabled.
-
-      - **`address`**
-
-        All compute address attributes.
     END
+
+    output "module_enabled" {
+      type        = bool
+      description = <<-END
+        Whether this module is enabled.
+      END
+    }
+
+    output "address" {
+      type        = object(address)
+      description = <<-END
+        All `google_compute_address` attributes.
+      END
+    }
   }
 
   section {
