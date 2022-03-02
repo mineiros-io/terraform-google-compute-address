@@ -63,7 +63,7 @@ section {
 
       ```hcl
       module "terraform-google-compute-address" {
-          source = "github.com/mineiros-io/terraform-google-compute-address.git?ref=v0.1.0"
+          source = "github.com/mineiros-io/terraform-google-compute-address.git?ref=v0.0.2"
 
           name = "ipv4-address"
       }
